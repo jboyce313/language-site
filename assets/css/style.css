@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -9,16 +10,24 @@ header {
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: red;
-  color: white;
+  border-bottom: 5px solid red;
+  background-color: rgb(244, 243, 243);
 }
 
 h1 {
+  font-size: 40px;
+}
+
+h1 span {
+  color: white;
+  background-color: red;
+  padding: 3px 10px 3px 10px;
   font-size: 50px;
+  border-radius: 8px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .sub-head {
@@ -39,6 +48,7 @@ h2 {
   padding: 10px;
   border: none;
   border-radius: 10px;
+  font-size: 20px;
 }
 
 .hidden {
