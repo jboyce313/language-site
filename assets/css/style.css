@@ -7,11 +7,18 @@
 header {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: red;
+  color: white;
 }
 
 h1 {
   font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
 }
 
 .sub-head {
@@ -41,16 +48,21 @@ h1 {
   margin: auto;
 }
 
+.content * {
+  margin-top: 10px;
+}
+
 h3 {
   text-align: center;
   margin-bottom: 20px;
-}
-
-.content * {
-  margin-top: 10px;
+  font-size: 30px;
 }
 
 .clicked {
   background-color: red;
   color: white;
+}
+
+.red-text {
+  color: red;
 }
