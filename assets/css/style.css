@@ -37,6 +37,8 @@ h2 {
 .options button {
   width: 20%;
   padding: 10px;
+  border: none;
+  border-radius: 10px;
 }
 
 .hidden {
